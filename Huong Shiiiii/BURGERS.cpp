@@ -5,9 +5,9 @@ void solve(){
 	int arr[2] = {};
 	cin >> arr[0] >> arr[1];
 	if (arr[0] > arr[1])
-		cout << arr[1];
+		cout << arr[1] << endl;
 	else
-		cout << arr[0];
+		cout << arr[0] << endl;
 }
 
 int main() {
