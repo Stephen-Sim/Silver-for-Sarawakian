@@ -19,7 +19,7 @@ void solve()
 	else if ((arr[5] == arr[0] && arr[4] == arr[1]) || (arr[5] == arr[1] && arr[4] == arr[0]))
 	{
 	
-		cout << "1" << endl;
+		cout << "2" << endl;
 
 	}
 	
