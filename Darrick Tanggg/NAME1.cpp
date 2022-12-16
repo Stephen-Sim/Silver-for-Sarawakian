@@ -2,6 +2,7 @@
 #include <algorithm>
 #include <vector>
 #include <string>
+#define ll long long
 using namespace std;
 
 
@@ -11,11 +12,11 @@ string solve()
 	string a, b;
 	cin >> a >> b;
 	string p = a + b;
-	int num;
+	ll num;
 	cin >> num;
 	vector <string> c(num);
 	string child;
-	for (int i = 0; i < num; i++)
+	for (ll i = 0; i < num; i++)
 	{
 		cin >> c[i];
 		child += c[i];
@@ -27,7 +28,7 @@ string solve()
 	}
 	else
 	{
-		vector <int> ap(26, 0), ac(26, 0);
+		vector <ll> ap(26, 0), ac(26, 0);
 		for (auto i : p)
 			ap[i - 'a']++;
 		for (auto i : child)
@@ -45,7 +46,7 @@ string solve()
 
 int main()
 {
-	int x = 1;
+	ll x = 1;
 	cin >> x;
 	while (x--)
 	{
